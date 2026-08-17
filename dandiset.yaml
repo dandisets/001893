@@ -54,8 +54,8 @@ citation: Su, Zhixiao; Kosillo, Polina; Jung, Kanghoon; Chen, Shuonan; Summers, 
   Vergara, Maria Camila; Smith, Kimberly A; Jarsky, Tim; Lusk, Nicholas; Rue, Mara;
   Chen, Xiaoyin; Siegle, Joshua H; Glaser, Adam K; Lee, Brian R; Svoboda, Karel; Isogai,
   Yoh; Chandrashekar, Jayaram V; Cohen, Jeremiah Y (2026) Patch-seq profiling of mouse
-  locus coeruleus norepinephrine neurons (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001893/draft
+  locus coeruleus norepinephrine neurons (Version 0.260817.1647) [Data set]. DANDI
+  Archive. https://doi.org/10.48324/dandi.001893/0.260817.1647
 contributor:
 - affiliation:
   - identifier: https://ror.org/03cpe7c52
@@ -603,6 +603,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2026-07-13T17:34:18.533102+00:00'
+datePublished: '2026-08-17T16:47:59.353729+00:00'
 description: "This dataset contains electrophysiological recordings for the Patch-seq
   analysis of Mus musculus locus coeruleus norepinephrine neurons using SMART-seq
   V4 sequencing of locus coeruleus (LC) norepinephrine neurons. These data are included
@@ -610,8 +611,9 @@ description: "This dataset contains electrophysiological recordings for the Patc
   neurons' by Su et al (2026): https://www.biorxiv.org/content/10.64898/2026.04.10.717727.
   Processing code is available at https://github.com/AllenNeuralDynamics/LCNE-patchseq-figures
   and https://github.com/AllenNeuralDynamics/LCNE-patchseq-analysis/"
+doi: 10.48324/dandi.001893/0.260817.1647
 ethicsApproval: []
-id: DANDI:001893/draft
+id: DANDI:001893/0.260817.1647
 identifier: DANDI:001893
 keywords:
 - Patch-seq
@@ -619,10 +621,22 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001893/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001893/0.260817.1647/assets.yaml
 name: Patch-seq profiling of mouse locus coeruleus norepinephrine neurons
 protocol:
 - https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
+publishedBy:
+  endDate: '2026-08-17T16:47:59.353729+00:00'
+  id: urn:uuid:fdaf9246-13a4-4c0e-a8d6-8fa6bf6796ab
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-08-17T16:47:59.353729+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:e7068f12-5068-43dd-997e-9eb4a11bc7a6
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: nemo:col-p9d5w39
   name: Topographic structure and function of locus coeruleus norepinephrine neurons
@@ -650,8 +664,8 @@ schemaKey: Dandiset
 schemaVersion: 0.7.0
 studyTarget:
 - Structure-function cell atlas for norepinephrine and serotonin neurons
-url: https://dandiarchive.org/dandiset/001893/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001893/0.260817.1647
+version: 0.260817.1647
 wasGeneratedBy:
 - description: BRAIN Initiative Cell Atlas Network
   identifier: RRID:SCR_022794
