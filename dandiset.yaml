@@ -645,6 +645,12 @@ relatedResource:
   resourceType: dcite:Dataset
   schemaKey: Resource
   url: https://assets.nemoarchive.org/collection/nemo:col-s96tk9a
+- name: 'Topographic structure and function of locus coeruleus noradrenaline neurons '
+  relation: dcite:IsPublishedIn
+  repository: Nature
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1038/s41586-026-11026-0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
